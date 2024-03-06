@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site</title>
+
+    <link rel="stylesheet" href="css/estilo.css">
+    
+
+</head>
+<body>
+    <header id="cabecalho">
+        <a id="menu1" class="lua" href="index.html">Mundo da Lua</a>
+        <nav id="navegacao">
+           
+            <a id="menu2" class="item esconder" href="categorias.html">Categorias</a>
+            <a id="menu3" class="item esconder" href="generos.html">Generos</a>
+            <a id="menu4" class="item esconder" href="sobre.html">Sobre</a>
+            <a id="menu5" class="item esconder" href="mais.html">Mais</a>
+    
+         </nav>
+    
+         <a id="menu6" class="logar" href="login.html">Entrar</a>
+         <a id="menu7" class="logar" href="Cadastro.html">Cadastre-se</a>
+     </header>
+
+     <main id="categorias-populares" class="borda7">  
+         <h1 id="acessar">Cadastro</h1>
+       
+         <form method="POST" action="#"> 
+     
+         <div>
+             <label class="usuariosenha" for="usuario">Usúsario/Email:</label>
+             <input 
+                 type="text"
+                 name="usuario"
+                 id="usuario"
+                 required
+                 >
+         </div>
+
+         <div>
+            <label class="usuariosenha" for="nascimento">Nascimento</label>
+            <input 
+                type="date"
+                name="usuario"
+                id="usuario"
+                required
+                >
+        </div>
+   
+         <div>
+             <label class="usuariosenha" for="senha">Senha:</label>
+             <input 
+                 type="password" 
+                 name="senha"
+                 id="senha"
+
+                 required
+             >
+         </div>
+
+         <div>
+            <label class="usuariosenha" for="senha">Confirme sua senha:</label>
+            <input 
+                type="password" 
+                name="senha"
+                id="senha"
+
+                required
+            >
+        </div>
+
+        <div>
+            <label class="usuariosenha" for="genero">Gênero:</label>
+            <select id="genero" name="genero">
+              <option value="masculino">Masculino</option>
+              <option value="feminino">Feminino</option>
+              <option value="outro">Prefiro não dizer</option>
+            </select>
+        </div>
+
+         <div id="direita">
+             <button>Fazer login</button>
+     
+         </div>    
+
+         <div id="botao-login">
+            <a href="login.html">Tem uma conta? Clique aqui</a>
+         </div>  
+
+     </form>
+
+
+</body>
+</html>
